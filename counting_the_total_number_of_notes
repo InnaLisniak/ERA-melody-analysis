@@ -45,7 +45,7 @@ def create_note_durations_dataframe(folder_path):
     return df
 
 if __name__ == "__main__":
-    folder_path = '/content/drive/MyDrive/balads new'  # Update with your folder path
+    folder_path = '/content/drive/MyDrive/balads'  # Update with your folder path
     note_durations_df = create_note_durations_dataframe(folder_path)
 
     # Sort the DataFrame by the 'Count' column in descending order
