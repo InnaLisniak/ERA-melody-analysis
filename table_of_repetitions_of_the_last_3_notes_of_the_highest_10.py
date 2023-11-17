@@ -11,4 +11,4 @@ sorted_pivot_table = pivot_table.sort_values(by='Count', ascending=False)
 LastThreeNumbers_values = sorted_pivot_table.head(10)
 
 # Display the eight largest values
-print(LastThreeNumbers_values)
+LastThreeNumbers_values.head(10)
