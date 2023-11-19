@@ -5,12 +5,12 @@ def extract_start_six_numbers(duration_list):
 # Apply the function to create a new column 'StartSixNumbers'
 df['StartSixNumbers'] = df['Durations'].apply(lambda x: extract_start_six_numbers(x))
 
-# Function to extract the last three floating-point numbers from a list
-def extract_last_three_numbers(duration_list):
-    return duration_list[-3:]
+# Function to extract the last two floating-point numbers from a list
+def extract_last_two_numbers(duration_list):
+    return duration_list[-2:]
 
-# Apply the function to create a new column 'LastThreeNumbers'
-df['LastThreeNumbers'] = df['Durations'].apply(lambda x: extract_last_three_numbers(x))
+# Apply the function to create a new column 'LastTwoNumbers'
+df['LastTwoNumbers'] = df['Durations'].apply(lambda x: extract_last_two_numbers(x))
 
 # Display the updated DataFrame
 df
