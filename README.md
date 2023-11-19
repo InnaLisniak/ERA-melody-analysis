@@ -9,13 +9,13 @@ visualization of the most frequently repeated notes in the corpus
 The following codes is based on the code at the address https://github.com/susmet/ERA-melody-analysis/blob/main/notes_durations_custom.py
 We use it as block 3
 
-4_Rhythmic_model_the_first_6_last_3_notes-syllables.py
-The code creates a columns of the first 6 and the last 3 note-syllables.
+4_Rhythmic_model_the_first_6_last_2_notes-syllables.py
+The code creates a columns of the first 6 and the last 2 note-syllables.
 5_table_of_the_first_6_notes-syllables.py
 the result displays a table of the most used first 6 notes-syllables
 6_horizontal_histogram_of_the_first_6_notes-syllables.ry
 the code creates a histogram to the previous code
-7_table_of_the_last_3_notes-syllables.py
-the result displays a table of the last 3 most used notes-syllables
-8_histogram_of_the_last_3_notes-syllables_.py
+7_table_of_the_last_2_notes-syllables.py
+the result displays a table of the last 2 most used notes-syllables
+8_histogram_of_the_last_2_notes-syllables_.py
 the code creates a histogram to the previous code
